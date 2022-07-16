@@ -19,6 +19,7 @@ Front-end:
   <img align="left" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
 </div>
 
+
 ## Funcionalidades
 
 - Temas dark e light
