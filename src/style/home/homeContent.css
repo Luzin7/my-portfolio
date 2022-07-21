@@ -1,0 +1,32 @@
+.home__content {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  width: 70%;
+}
+
+.home__title {
+  text-transform: uppercase;
+  font-size: 48px;
+  text-align: center;
+}
+
+.home__info-text {
+  text-align: center;
+  font-size: 21px;
+}
+
+.home__link-button {
+  margin-top: 2em;
+}
+
+.home__button{
+  font-size: 1.2em;
+  transition: all 0.2s;
+}
+
+.home__button:hover{
+  color: var(--blue__color);
+}
