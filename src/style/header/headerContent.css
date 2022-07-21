@@ -1,0 +1,29 @@
+.header__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white__color);
+  width: 100%;
+  letter-spacing: 2px;
+  height: 8vh;
+  position: fixed;
+}
+
+.header__links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__link {
+  color: var(--black__color);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 21px;
+  padding: 1em;
+  transition: all 0.2s;
+}
+
+.header__link:hover {
+  color: var(--blue__color);
+}
