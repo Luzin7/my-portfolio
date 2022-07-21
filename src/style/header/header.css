@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--white__color);
   text-align: center;
   height: 8vh;
   position: relative;
