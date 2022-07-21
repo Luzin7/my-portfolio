@@ -1,8 +1,8 @@
-import HelloWorld from "./components/HelloWorld";
+import HomePage from "./pages/Home";
 function App() {
   return (
     <div className="App">
-      <HelloWorld />
+      <HomePage />
     </div>
   );
 }
