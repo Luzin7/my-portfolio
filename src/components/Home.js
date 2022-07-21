@@ -26,6 +26,10 @@ function Home() {
           </a>
         </div>
       </div>
+      <div className="scroll">
+        <span></span>
+        <p className="scroll__text">Role para baixo</p>
+      </div>
     </section>
   );
 }
