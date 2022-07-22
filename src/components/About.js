@@ -17,7 +17,7 @@ function About() {
       <div className="about__header-text">
         <h2 className="about__title">Sobre mim</h2>
         <p className="about__sub">
-          Me chamo Luan Victor, tenho 19 anos e estudo desenvolvimento web
+          Me chamo Luan Victor, tenho 20 anos e estudo desenvolvimento web
           Front-end de forma autônoma, tenho experiência com trabalho em equipe
           e, futuramente, pretendo me tornar Full-stack.
         </p>
