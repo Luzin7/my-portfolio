@@ -9,13 +9,24 @@ function Header() {
         <div className="header__main">
           <ul className="header__links">
             <li className="header__link-wrapper">
-              <a href="#home" className="header__link">Início</a>
+              <a href="#home" className="header__link">
+                Início
+              </a>
             </li>
             <li className="header__link-wrapper">
-              <a href="*" className="header__link">Sobre</a>
+              <a href="#about" className="header__link">
+                Sobre
+              </a>
             </li>
             <li className="header__link-wrapper">
-              <a href="*" className="header__link">Projetos</a>
+              <a href="#projects" className="header__link">
+                Projetos
+              </a>
+            </li>
+            <li className="header__link-wrapper">
+              <a href="#contact" className="header__link">
+                Contato
+              </a>
             </li>
           </ul>
         </div>
