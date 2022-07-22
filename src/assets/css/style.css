@@ -39,11 +39,16 @@ strong {
   text-shadow: 1px 2px 0px var(--blue__color);
 }
 
+body::-webkit-scrollbar {
+  width: 0px;
+}
+
 :root {
   --blue__color: #8099e9;
   --pink__color: #e99dcb;
   --black__color: #171430;
-  --white__color: #ffffff;
+  --white__color: white;
+  --bg__white-color: #f9f9f9;
 }
 
 .btn {
