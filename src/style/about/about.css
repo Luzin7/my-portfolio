@@ -1,0 +1,9 @@
+.about {
+  background-color: var(--bg__white-color);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  /* home height value - header heigh */
+  min-height: 92vh;
+}
