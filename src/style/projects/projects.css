@@ -1,0 +1,9 @@
+.projects {
+  background-color: var(--black__color);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  /* home height value - header heigh */
+  min-height: 100vh;
+}
