@@ -8,6 +8,11 @@
   z-index: 0;
 }
 
+.me__icon{
+  border-radius: 100%;
+  width: 15vw;
+}
+
 .home__title {
   text-transform: uppercase;
   font-size: 64px;
