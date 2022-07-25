@@ -1014,8 +1014,7 @@
   }
 
   .scroll {
-    position: absolute;
-    top: 700px;
+    display: none;
   }
 
   .scroll span {
