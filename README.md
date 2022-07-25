@@ -4,17 +4,19 @@ Um website que reúne informações sobre quem sou e o que faço. Nele será pos
 
 ## Demonstração
 
-[...]
+![Demo](./src/design/Demo_Home.png)
+
+[Visite aqui!](https://lvictor-portfolio.vercel.app/)
 
 ## Técnologias usadas
 
 Front-end:
 
-> Desenvolvido usando: ES6, React.js, HTML5, CSS3, e AOS.
+> Desenvolvido usando: ES6, JavaScript, React.js, HTML5, CSS3, e AOS.
 
 ## Funcionalidades
 
-- Responsivo (Em desenvolvimento)
+- Responsivo
 
 ## Instalando Dependências
 
