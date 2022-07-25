@@ -5,6 +5,7 @@ Um website que reúne informações sobre quem sou e o que faço. Nele será pos
 ## Demonstração
 
 ![Demo](./src/design/Demo_Home.png)
+![DemoResponsivo](./src/design/Demo_Home_Responsive.png)
 
 [Visite aqui!](https://lvictor-portfolio.vercel.app/)
 
