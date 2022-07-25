@@ -1,0 +1,29 @@
+.contact {
+  background-color: var(--black__color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* contact height value - footer heigh */
+  min-height: 60vh;
+}
+
+.contact__header-text {
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+  padding-top: 1em;
+  margin-bottom: 4em;
+}
+
+.contact__title {
+  color: var(--white__color);
+  font-size: 64px;
+  text-transform: uppercase;
+}
+
+.contact__sub {
+  text-align: center;
+  color: var(--white__color);
+  font-size: 21px;
+  margin-top: 2em;
+}
