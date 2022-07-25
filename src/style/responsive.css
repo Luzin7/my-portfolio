@@ -1,0 +1,79 @@
+
+
+@media (max-width: 1600px) {
+  .scroll {
+    position: absolute;
+    top: 700px;
+  }
+
+  .header__link {
+    font-size: 28px;
+  }
+
+  .projects__img,
+  .project__no-img {
+    height: 480px;
+    width: 940px;
+  }
+}
+
+@media (max-width: 900px) {
+  .about {
+    background-color: var(--black__color);
+    width: 100%;
+    padding-top: 8vh;
+  }
+  .about__title,
+  .about__sub,
+  .about__info-text,
+  .about__skills-title {
+    color: var(--white__color);
+  }
+  .about__content {
+    padding: 2em;
+    width: 100%;
+  }
+  .projects__img,
+  .project__no-img {
+    height: 240px;
+    width: 480px;
+  }
+  .project__no-img__content {
+    transform: translateY(70px);
+  }
+  .contact__title {
+    font-size: 48px;
+  }
+
+  .contact__sub {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .App {
+    max-width: 600px;
+  }
+  .header__link {
+    font-size: 21px;
+  }
+  .home__title {
+    font-size: 48px;
+  }
+  .about__content {
+    flex-flow: column wrap;
+    width: 100%;
+    align-items: center;
+  }
+  .about__info-text {
+    width: 100%;
+    font-size: clamp(18px, 21px, 21px);
+  }
+  .contact__title {
+    font-size: clamp(18px, 31px, 31px);
+  }
+
+  .contact__sub {
+    font-size: 18px;
+  }
+}
