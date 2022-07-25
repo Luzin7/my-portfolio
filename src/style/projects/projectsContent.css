@@ -1,0 +1,119 @@
+.projects__content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 70%;
+  max-height: 100%;
+  padding: 8vh;
+}
+
+.projects__header-text {
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+  padding-top: 1em;
+  margin-bottom: 4em;
+}
+
+.projects__title {
+  color: var(--white__color);
+  font-size: 48px;
+  text-transform: uppercase;
+}
+
+.projects__title::after {
+  content: "";
+  width: 180px;
+  height: 7px;
+  background: var(--blue__color);
+  display: block;
+  margin: 7px auto;
+  border-radius: 7px;
+}
+
+.projects__sub {
+  text-align: center;
+  color: var(--white__color);
+  font-size: 18px;
+  padding-top: 1em;
+}
+
+.projects__links {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.project__link-wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+.projects__img {
+  display: flex;
+  justify-content: center;
+  height: 480px;
+  width: 940px;
+}
+
+.project__img {
+  border-radius: 15px;
+  width: 100%;
+}
+
+.project__no-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("https://i.pinimg.com/originals/ef/16/e4/ef16e4e68b0d3cb81e6bb8a8c3258d7e.gif")
+    center;
+  height: 480px;
+  width: 940px;
+  border-radius: 15px;
+  cursor: default;
+  overflow: hidden;
+  transition: all ease 0.2s;
+}
+
+.project__no-img:hover {
+  letter-spacing: 2px;
+}
+
+.project__no-img__content {
+  background-color: var(--black__color);
+  text-align: center;
+  padding: 2em 40em;
+  opacity: 0.8;
+  transform: translateY(190px);
+  transition: all ease 0.2s;
+}
+
+.project__no-img__content:hover {
+  background-color: var(--black__color);
+  opacity: 0.4;
+}
+
+.project__no-img__text {
+  text-align: center;
+  font-weight: bold;
+}
+
+.projects__info {
+  padding: 2em;
+  cursor: default;
+}
+
+.projects__info-title {
+  font-size: 38px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.projects__info-text {
+  text-align: justify;
+  font-size: 21px;
+  margin: 0.4em;
+}
