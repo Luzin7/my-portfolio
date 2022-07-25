@@ -31,3 +31,8 @@ npm install
 ```
   cd src/ && npm start
 ```
+
+## Créditos
+
+- [ícones](https://icon-icons.com/)
+- [Gif](https://dribbble.com/eown)
