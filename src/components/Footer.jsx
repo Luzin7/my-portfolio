@@ -43,7 +43,7 @@ function Footer() {
       </div>
       <span>
         Todos os dados atualizados em {CURRENT_YEAR}. Feito por{" "}
-        <a href="https://github.com/Luzin7" target="_blank" rel="noreferrer">
+        <a href="https://lvictor-portfolio.vercel.app/" target="_blank" rel="noreferrer">
           Luan Victor
         </a>
         . <br /> Algumas imagens fora retiradas da internet e receberam os
