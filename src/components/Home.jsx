@@ -6,6 +6,11 @@ function Home() {
   return (
     <section data-aos="fade-down" className="home">
       <div className="home__content">
+        <img
+          className="me__icon"
+          src="https://avatars.githubusercontent.com/u/76531786?v=4"
+          alt="Luan Victor"
+        />
         <h1 className="home__title">
           Olá, meu nome é <strong>Luan Victor</strong>
         </h1>
