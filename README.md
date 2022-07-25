@@ -14,8 +14,7 @@ Front-end:
 
 ## Funcionalidades
 
-- Temas dark e light
-- Responsivo
+- Responsivo (Em desenvolvimento)
 
 ## Instalando Dependências
 
