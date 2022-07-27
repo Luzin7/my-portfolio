@@ -15,7 +15,6 @@
 
 html {
   scroll-behavior: smooth;
-  
 }
 
 body {
@@ -52,9 +51,8 @@ body::-webkit-scrollbar {
   --bg__white-color: #f9f9f9;
 }
 
-.App{
-    overflow-x: hidden;
-
+.App {
+  overflow-x: hidden;
 }
 
 .btn {
