@@ -16,8 +16,8 @@ function Home() {
         </h1>
         <div className="home__info">
           <p className="home__info-text">
-            Um apaixonado por tecnologia que decidiu seguir o caminho da
-            programação.
+            Um <strong>apaixonado por tecnologia</strong> que decidiu seguir o
+            caminho da <strong>programação</strong>.
           </p>
         </div>
         <div className="home__link-button">
