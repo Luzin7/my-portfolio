@@ -17,7 +17,8 @@
 
 .contact__title {
   color: var(--white__color);
-  font-size: 64px;
+  font-size: 7vh;
+  text-align: center;
   text-transform: uppercase;
 }
 

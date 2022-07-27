@@ -29,6 +29,7 @@
   text-align: center;
   font-size: 38px;
   margin-bottom: 1em;
+  text-transform: uppercase;
 }
 
 .footer__social-links {
@@ -38,7 +39,7 @@
 }
 
 .social__link-wrapper {
-  margin-right: 1em;
+  margin-right: 2.5em;
 }
 
 .social__link-wrapper:nth-last-child() {
