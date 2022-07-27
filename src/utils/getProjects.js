@@ -1,13 +1,14 @@
 import weatherAppImg from "../assets/imgs/react-weather-app.jpg";
+import gameHubImg from "../assets/imgs/game-hub_screen-demo.png";
 
 export const PROJECTS = [
   {
     id: 1,
-    media: null,
+    media: gameHubImg,
     name: "Game-hub",
     repository: "https://github.com/Luzin7/game-hub",
     description:
-      "Uma aplicação desenvolvida para prática da ferramenta React.JS utlizando React Router como principal aprendizado. No projeto você consegue ter informações de todos os jogos disponíveis, desde sua descrição até o link de download. Tudo dinamicamente.",
+      "Uma aplicação desenvolvida para prática da ferramenta React.JS utlizando React Router como principal aprendizado. No projeto você consegue ter informações de todos os jogos disponíveis, desde sua descrição até o link de download. Além de conseguir fazer cadastro e recuperação de login usando armazenamento local. Tudo dinamicamente.",
   },
   {
     id: 2,
@@ -32,6 +33,3 @@ export const PROJECTS = [
     description: null,
   },
 ];
-
-export const NO_MEDIA =
-  "https://media3.giphy.com/media/IbHjVrkArbNFNGPTpj/giphy.gif?cid=790b76119b49def524708146c2ac6dba9ae95295bcecfea8&rid=giphy.gif&ct=ts";
