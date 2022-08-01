@@ -1,5 +1,5 @@
 import weatherAppImg from "../assets/imgs/react-weather-app.jpg";
-import gameHubImg from "../assets/imgs/game-hub_screen-demo.png";
+import gameHubImg from "../assets/imgs/game-hub_screen-demo.jpg";
 
 export const PROJECTS = [
   {
