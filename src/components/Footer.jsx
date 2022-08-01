@@ -24,6 +24,7 @@ function Footer() {
                   className="social__logo"
                   src={linkedinLogo}
                   alt="Linkedin"
+                  loading="lazy"
                 />
               </div>
             </a>
@@ -35,7 +36,12 @@ function Footer() {
               rel="noreferrer"
             >
               <div className="social__img">
-                <img className="social__logo" src={gitHubLogo} alt="GitHub" />
+                <img
+                  className="social__logo"
+                  src={gitHubLogo}
+                  alt="GitHub"
+                  loading="lazy"
+                />
               </div>
             </a>
           </li>
@@ -43,7 +49,11 @@ function Footer() {
       </div>
       <span>
         Todos os dados atualizados em {CURRENT_YEAR}. Feito por{" "}
-        <a href="https://lvictor-portfolio.vercel.app/" target="_blank" rel="noreferrer">
+        <a
+          href="https://lvictor-portfolio.vercel.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
           Luan Victor
         </a>
         . <br /> Algumas imagens fora retiradas da internet e receberam os

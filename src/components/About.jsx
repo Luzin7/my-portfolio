@@ -46,6 +46,7 @@ function About() {
                     className="skill__img"
                     src={skill.icon}
                     alt="Language icon"
+                    loading="lazy"
                   />
                 </div>
                 <p className="skill__name">{skill.name}</p>

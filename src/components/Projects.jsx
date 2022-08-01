@@ -36,6 +36,7 @@ function Projects() {
                       className="project__img"
                       src={project.media}
                       alt={`project ${project.name}`}
+                      loading="lazy"
                     />
                   </a>
                 </div>
