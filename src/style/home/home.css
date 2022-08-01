@@ -1,8 +1,1 @@
-.home {
-  background-color: var(--black__color);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* home height value - header heigh */
-  min-height: 92vh;
-}
+.home {background-color: var(--black__color);display: flex;justify-content: center;align-items: center;min-height: 92vh;}
