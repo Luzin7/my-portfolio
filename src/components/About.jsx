@@ -1,6 +1,7 @@
 import React from "react";
 
 import { SKILLS } from "../utils/getSkills";
+import pdf from "../assets/pdf/curriculo_victor.pdf";
 
 import "../style/about/about.css";
 import "../style/about/aboutContent.css";
@@ -18,7 +19,9 @@ function About() {
       </div>
       <div className="about__content">
         <div className="about__info">
-          <h3 data-aos="fade-up" className="about__skills-title">Minha carreira na programação</h3>
+          <h3 data-aos="fade-up" className="about__skills-title">
+            Minha carreira na programação
+          </h3>
           <p className="about__info-text">
             Desde criança sou interessado em tecnologia, sempre tive curiosidade
             sobre como fazer um projeto que eu achasse legal ou saber, por
@@ -33,7 +36,9 @@ function About() {
           </p>
         </div>
         <div className="about__skills">
-          <h3 data-aos="fade-up" className="about__skills-title">Tenho experiência com</h3>
+          <h3 data-aos="fade-up" className="about__skills-title">
+            Tenho experiência com
+          </h3>
           <ul className="about__skills-list">
             {SKILLS.map((skill) => (
               <li
@@ -55,6 +60,14 @@ function About() {
           </ul>
         </div>
       </div>
+      <a
+        className="btn about_download"
+        href={pdf}
+        target="_blank"
+        rel="noreferrer"
+      >
+        Acesse meu currículo aqui.
+      </a>
     </section>
   );
 }
