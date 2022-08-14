@@ -1,5 +1,7 @@
 import weatherAppImg from "../assets/imgs/react-weather-app.jpg";
 import gameHubImg from "../assets/imgs/game-hub_screen-demo.jpg";
+import mmlImg from "../assets/imgs/my-movie-list.jpg";
+import happyDayImg from "../assets/imgs/happy-day.jpg";
 
 export const PROJECTS = [
   {
@@ -20,13 +22,22 @@ export const PROJECTS = [
   },
   {
     id: 3,
-    media: null,
-    name: "Em breve",
-    repository: "Em breve",
-    description: null,
+    media: mmlImg,
+    name: "My Movie List",
+    repository: "https://github.com/Luzin7/my-movie-list",
+    description:
+      "Um compilado de filmes que assisti com meus amigos. Junto aos títulos, adicionamos nossas opiniões e notas. Além de existir uma seção de filmes que pretendemos assistir.",
   },
   {
     id: 4,
+    media: happyDayImg,
+    name: "Happy Day",
+    repository: "https://github.com/Luzin7/happy-day",
+    description:
+      "Um site criado para celebrar dias especiais gerando frases relacionadas ao conteúdo.",
+  },
+  {
+    id: 5,
     media: null,
     name: "Em breve",
     repository: "Em breve",
