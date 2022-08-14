@@ -3,10 +3,31 @@ import "../style/header/header.css";
 import "../style/header/headerContent.css";
 
 function Header() {
+  function toggleMenu(event) {
+    const btn = document.getElementById("btn__mobile");
+    const nav = document.querySelector("#nav__header");
+    nav.classList.toggle("active");
+    const ariaActive = nav.classList.contains("active");
+    event.currentTarget.setAttribute("aria-expanded", ariaActive);
+
+    if (ariaActive) {
+      btn.textContent = "X";
+    } else {
+      btn.textContent = "Menu";
+    }
+  }
   return (
     <header className="header">
       <div className="header__content">
-        <div className="header__main">
+        <nav id="nav__header">
+          <button
+            id="btn__mobile"
+            className="btn"
+            aria-expanded="false"
+            onClick={toggleMenu}
+          >
+            Menu
+          </button>
           <ul className="header__links">
             <li className="header__link-wrapper">
               <a href="#home" className="header__link">
@@ -29,7 +50,7 @@ function Header() {
               </a>
             </li>
           </ul>
-        </div>
+        </nav>
       </div>
     </header>
   );
