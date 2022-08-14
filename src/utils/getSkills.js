@@ -1,5 +1,3 @@
-
-
 import jsLogo from "../assets/icons/js.svg";
 import reactLogo from "../assets/icons/react.svg";
 import vuejsLogo from "../assets/icons/vuejs.svg";
