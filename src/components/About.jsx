@@ -66,7 +66,7 @@ function About() {
         target="_blank"
         rel="noreferrer"
       >
-        Acesse meu currículo aqui.
+        Acesse meu currículo
       </a>
     </section>
   );
