@@ -1,8 +1,1 @@
-.projects {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-items: center;
-  /* projects height value - header heigh */
-  min-height: 100vh;
-}
+.projects{display:flex;flex-flow:column wrap;justify-content:center;align-items:center;min-height:100vh}
