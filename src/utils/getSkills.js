@@ -7,6 +7,7 @@ import gitLogo from "../assets/icons/Git-Icon.png";
 import gitHubLogo from "../assets/icons/GitHub-Mark-120px-plus.png";
 import sassLogo from "../assets/icons/sass.svg";
 import vscodeLogo from "../assets/icons/vscode.svg";
+import styledcomponentslogo from "../assets/icons/styledcomponents.svg"
 
 export const SKILLS = [
   {
@@ -53,5 +54,10 @@ export const SKILLS = [
     id: 9,
     icon: vscodeLogo,
     name: "VS Code",
+  },
+  {
+    id: 10,
+    icon: styledcomponentslogo,
+    name: "Styled Components",
   },
 ];
