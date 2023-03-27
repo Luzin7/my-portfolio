@@ -56,7 +56,7 @@ function Footer() {
         >
           Luan Victor
         </a>
-        . <br /> Algumas imagens fora retiradas da internet e receberam os
+        . <br /> Algumas imagens foram retiradas da internet e receberam os
         devidos créditos no{" "}
         <a
           href="https://github.com/Luzin7/my-portfolio"

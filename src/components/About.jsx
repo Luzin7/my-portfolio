@@ -14,7 +14,7 @@ function About() {
         <p className="about__sub">
           Me chamo Luan Victor, tenho 20 anos e estudo desenvolvimento web
           Front-end de forma autônoma. Tenho experiência com trabalho em equipe
-          e futuramente pretendo me tornar Full-stack.
+          e pretendo me tornar Full-stack.
         </p>
       </div>
       <div className="about__content">
@@ -25,7 +25,7 @@ function About() {
           <p className="about__info-text">
             Desde criança sou interessado em tecnologia, sempre tive curiosidade
             sobre como fazer um projeto que eu achasse legal ou saber, por
-            exemplo, como um aplicativo móvel ou um página web foram criados.
+            exemplo, como um aplicativo ou um página web foram criados.
             Por ter essa ambição de conhecimento já trilhei por algumas áreas da
             programação, desde desenvolvedor de jogos digitais até desenvolvedor
             web. Assim como qualquer pessoa, já vivi diferentes fases e gostos
