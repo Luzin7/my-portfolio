@@ -67,6 +67,7 @@ function Footer() {
         </a>{" "}
         desse projeto.
       </span>
+      <small>Uma nova versão desse portfólio está sendo desenvolvida.</small>
     </footer>
   );
 }
