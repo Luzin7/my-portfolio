@@ -11,9 +11,7 @@ function Projects() {
       <div className="projects__content">
         <div className="projects__header-text">
           <h2 className="projects__title">Projetos</h2>
-          <p className="projects__sub">
-            Aqui deixo disponível alguns projetos pessoais que fiz.
-          </p>
+          <p className="projects__sub">Alguns projetos pessoais que fiz.</p>
         </div>
         <ul className="projects__links">
           {PROJECTS.map((project) => (
@@ -22,7 +20,6 @@ function Projects() {
               key={project.id}
               className="project__link-wrapper"
             >
-              {/* condicionando o banner mostrado para os projetos */}
               {project.media === null ? (
                 <div className="project__no-img">
                   <div className="project__no-img__content">
